@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\unityproject\\HD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|c:\\unityproject\\hd\\assets\\scripts\\eggclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\eggclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\choiceimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\choiceimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\ivstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ivstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChoiceImage.cs",
+              "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\ChoiceImage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChoiceImage.cs",
+              "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\ChoiceImage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChoiceImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T10:16:05.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "eggClick.cs",
+              "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\eggClick.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\eggClick.cs",
+              "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\eggClick.cs",
+              "RelativeToolTip": "Assets\\Scripts\\eggClick.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAuwB4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T09:28:09.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookManager.cs",
+              "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\BookManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BookManager.cs",
+              "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\BookManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BookManager.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA0wDwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T14:26:27.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IVStatus.cs",
+              "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\IVStatus.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IVStatus.cs",
+              "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\IVStatus.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IVStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T13:59:35.289Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
