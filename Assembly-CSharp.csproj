@@ -63,7 +63,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\eggClick.cs" />
     <Compile Include="Assets\Scripts\BookManager.cs" />
+    <Compile Include="Assets\Scripts\PencilClickHandler.cs" />
     <Compile Include="Assets\Scripts\IVStatus.cs" />
+    <Compile Include="Assets\Scripts\eggLV.cs" />
+    <Compile Include="Assets\Scripts\BookClickHandler.cs" />
+    <Compile Include="Assets\Scripts\ArrowClickHandler.cs" />
+    <Compile Include="Assets\Scripts\info.cs" />
+    <Compile Include="Assets\Scripts\DiaryHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

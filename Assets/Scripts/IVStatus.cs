@@ -31,12 +31,12 @@ public class IVStatus : MonoBehaviour
 
     void Update()
     {
-        // 테스트용 키 입력
-        if (Input.GetKeyDown(KeyCode.M)) // L 키로 레벨 상승
+        // 테스트용 키 
+        if (Input.GetKeyDown(KeyCode.M)) 
         {
             AddLevel(1);
         }
-        if (Input.GetKeyDown(KeyCode.N)) // C 키로 코인 추가
+        if (Input.GetKeyDown(KeyCode.N)) 
         {
             AddCoins(10);
         }
