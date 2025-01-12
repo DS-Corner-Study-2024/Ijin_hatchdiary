@@ -31,21 +31,17 @@ public class DiaryHandler : MonoBehaviour
 
     void Start()
     {
-        // UI 초기화
+
         InitializeUI();
 
-        // 날짜 초기화
         UpdateDateDisplay();
 
-        // 날짜 변경 버튼 리스너
         if (arrowNextButton != null) arrowNextButton.onClick.AddListener(NextDay);
         if (arrowPrevButton != null) arrowPrevButton.onClick.AddListener(PreviousDay);
 
-        // 저장 버튼 리스너
         if (saveButton != null) saveButton.onClick.AddListener(SaveDiaryEntry);
         if (saveButton2 != null) saveButton2.onClick.AddListener(SaveDiaryEntry2);
 
-        // 이미지 클릭 리스너
         AddImageClickListener(diaryImage, OnDiaryImageClick);
         AddImageClickListener(diaryImage2, OnDiaryImageClick2);
     }
@@ -70,8 +66,6 @@ public class DiaryHandler : MonoBehaviour
             imageButton.onClick.AddListener(action);
         }
     }
-
-    // 📅 날짜 변경
     void NextDay()
     {
         currentDate = currentDate.AddDays(1);
@@ -106,7 +100,6 @@ public class DiaryHandler : MonoBehaviour
         }
     }
 
-    // 📝 저장 기능
     void SaveDiaryEntry()
     {
         string dateKey = currentDate.ToString("yyyy-MM-dd");

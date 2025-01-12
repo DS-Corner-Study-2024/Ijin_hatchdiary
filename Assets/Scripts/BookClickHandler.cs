@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;  // Button 컴포넌트를 사용하기 위해 필요
+using UnityEngine.UI; 
 
 public class BookClickHandler : MonoBehaviour
 {
     private float lastClickTime = 0f;
     private float doubleClickThreshold = 0.3f;
 
-    // UI 요소들
     private GameObject diary;
     private GameObject arrow;
     private GameObject arrow2;
@@ -18,7 +17,6 @@ public class BookClickHandler : MonoBehaviour
 
     void Awake()
     {
-        // Books 오브젝트 찾기
         GameObject booksObject = GameObject.Find("Books");
         if (booksObject != null)
         {
@@ -30,13 +28,11 @@ public class BookClickHandler : MonoBehaviour
             Allx = booksTransform.Find("Allx_0")?.gameObject;
         }
 
-        // Canvass 캔버스와 그 안의 Year 텍스트 찾기
         Canvass = GameObject.Find("Canvass");  
         if (Canvass != null)
         {
             YearText = Canvass.GetComponentInChildren<Text>(); 
 
-            // bookshelf_0에서 arrow_00을 찾기
             GameObject bookshelf = Canvass.transform.Find("bookshelf_0")?.gameObject;  
             if (bookshelf != null)
             {
@@ -45,7 +41,6 @@ public class BookClickHandler : MonoBehaviour
             }
         }
 
-        // UI 요소 비활성화 (Year, arrow_00 제외)
         SetBookUIActive(false);
         if (YearText != null) YearText.gameObject.SetActive(true); 
         if (arrow_00 != null) arrow_00.SetActive(true);
@@ -91,14 +86,13 @@ public class BookClickHandler : MonoBehaviour
 
     private void SetBookUIActive(bool isActive)
     {
-        // 'book' 클론 자체는 비활성화하지 않음
         if (diary != null) diary.SetActive(isActive);
         if (arrow != null) arrow.SetActive(isActive);
         if (arrow2 != null) arrow2.SetActive(isActive);
         if (Allx != null) Allx.SetActive(isActive);
     }
 
-    // "Allx" 버튼 클릭 시 Year UI 요소와 arrow_00 활성화, 다른 UI 요소들은 비활성화
+    // Year UI 요소와 arrow_00 활성화, 다른 UI 것들은 비활성화
     public void ActivateYear()
     {
         if (YearText != null)
@@ -117,7 +111,6 @@ public class BookClickHandler : MonoBehaviour
         SetBookUIActive(false);
     }
 
-    // "Allx"를 클릭했을 때 UI 요소들 비활성화
     public void CloseBook()
     {
         SetBookUIActive(false);

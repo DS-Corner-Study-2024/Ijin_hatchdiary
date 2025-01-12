@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\unityproject\\HD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|c:\\unityproject\\hd\\assets\\scripts\\diaryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\diaryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|c:\\unityproject\\hd\\assets\\scripts\\egglv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\egglv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\eggclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\eggclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|c:\\unityproject\\hd\\assets\\scripts\\prologue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\prologue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\pencilclickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pencilclickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\ivstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ivstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\pencilclickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pencilclickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\egglv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\egglv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\diaryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\diaryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\bookclickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,8 +43,8 @@
       "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrowclickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|C:\\unityproject\\HD\\assets\\scripts\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8838C30A-2116-E192-218C-BC74C201AF38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\unityproject\\HD\\Library\\PackageCache\\com.unity.ugui\\Runtime\\UGUI\\UI\\Core\\InputField.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui\\Runtime\\UGUI\\UI\\Core\\InputField.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,82 +54,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DiaryHandler.cs",
-              "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\DiaryHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DiaryHandler.cs",
-              "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\DiaryHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DiaryHandler.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAIwEsAAAASAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "prologue.cs",
+              "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\prologue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\prologue.cs",
+              "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\prologue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\prologue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T14:26:27.383Z",
+              "WhenOpened": "2025-01-08T10:23:07.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ArrowClickHandler.cs",
-              "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\ArrowClickHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ArrowClickHandler.cs",
-              "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\ArrowClickHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ArrowClickHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T13:52:20.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "PencilClickHandler.cs",
               "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\PencilClickHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PencilClickHandler.cs",
               "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\PencilClickHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\PencilClickHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T13:51:29.82Z"
+              "WhenOpened": "2025-01-07T14:40:26.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "InputField.cs",
+              "DocumentMoniker": "C:\\unityproject\\HD\\Library\\PackageCache\\com.unity.ugui\\Runtime\\UGUI\\UI\\Core\\InputField.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui\\Runtime\\UGUI\\UI\\Core\\InputField.cs",
+              "ToolTip": "C:\\unityproject\\HD\\Library\\PackageCache\\com.unity.ugui\\Runtime\\UGUI\\UI\\Core\\InputField.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui\\Runtime\\UGUI\\UI\\Core\\InputField.cs",
+              "ViewState": "AgIAADMLAAAAAAAAAAD4v6AJAACfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T14:27:31.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DiaryHandler.cs",
+              "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\DiaryHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DiaryHandler.cs",
+              "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\DiaryHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DiaryHandler.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAywFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:26:27.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BookManager.cs",
               "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\BookManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BookManager.cs",
               "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\BookManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\BookManager.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAywBoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T14:26:27.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T14:26:27.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "info.cs",
               "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\info.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\info.cs",
               "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\info.cs",
               "RelativeToolTip": "Assets\\Scripts\\info.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCcAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAF8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T10:41:46.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "eggLV.cs",
               "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\eggLV.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\eggLV.cs",
               "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\eggLV.cs",
               "RelativeToolTip": "Assets\\Scripts\\eggLV.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAywAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T08:20:53.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T08:20:53.106Z"
             },
             {
               "$type": "Document",
@@ -131,35 +149,46 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\IVStatus.cs",
               "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\IVStatus.cs",
               "RelativeToolTip": "Assets\\Scripts\\IVStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAywC0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T13:59:35.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T13:59:35.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "eggClick.cs",
               "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\eggClick.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\eggClick.cs",
               "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\eggClick.cs",
               "RelativeToolTip": "Assets\\Scripts\\eggClick.cs",
-              "ViewState": "AgIAAA8BAAAAAAAAAAAowCYBAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABkBAAAAAAAAAAAowFkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T09:28:09.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "BookClickHandler.cs",
               "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\BookClickHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BookClickHandler.cs",
               "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\BookClickHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\BookClickHandler.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAiwG8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T13:56:51.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ArrowClickHandler.cs",
+              "DocumentMoniker": "C:\\unityproject\\HD\\Assets\\Scripts\\ArrowClickHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ArrowClickHandler.cs",
+              "ToolTip": "C:\\unityproject\\HD\\Assets\\Scripts\\ArrowClickHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ArrowClickHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T14:32:54.68Z"
             }
           ]
         }

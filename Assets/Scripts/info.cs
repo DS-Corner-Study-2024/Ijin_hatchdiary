@@ -1,35 +1,45 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
 
 public class Info : MonoBehaviour
 {
     public GameObject obj;
-    public Text levelText; 
-    public int eggLevel = 0; 
-    public Button checkButton; 
-    public Button nextButton; 
+    public Text levelText;
+    public int eggLevel = 0;
+    public Button checkButton;
+    public Button nextButton;
+    public Button levelUpButton; 
 
-    private bool level25Active = false; 
-    private bool level50Active = false; 
-    private bool level75Active = false; 
-    private bool level100Active = false; 
+    private bool level25Active = false;
+    private bool level50Active = false;
+    private bool level75Active = false;
+    private bool level100Active = false;
 
     void Start()
     {
-        checkButton.onClick.AddListener(OnCheckButtonClick); 
-        nextButton.onClick.AddListener(OnNextButtonClick); 
-        UpdateObjectVisibility(); 
-        checkButton.gameObject.SetActive(false); 
-        nextButton.gameObject.SetActive(false); 
+        checkButton.onClick.AddListener(OnCheckButtonClick);
+        nextButton.onClick.AddListener(OnNextButtonClick);
+        levelUpButton.onClick.AddListener(OnLevelUpButtonClick);
+
+        UpdateObjectVisibility();
+        checkButton.gameObject.SetActive(false);
+        nextButton.gameObject.SetActive(false);
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.B)) 
+        if (Input.GetKeyDown(KeyCode.B))
         {
-            eggLevel += 5; 
-            UpdateObjectVisibility(); 
+            eggLevel += 5;
+            UpdateObjectVisibility();
         }
+    }
+
+    private void OnLevelUpButtonClick()
+    {
+        eggLevel += 1;
+        UpdateObjectVisibility();
+        levelText.text = $"ë ˆë²¨ì´ 1 ì¦ê°€í–ˆìŠµë‹ˆë‹¤! í˜„ì¬ ë ˆë²¨: {eggLevel}";
     }
 
     private void UpdateObjectVisibility()
@@ -37,76 +47,74 @@ public class Info : MonoBehaviour
         if (eggLevel >= 100 && !level100Active)
         {
             obj.SetActive(true);
-            levelText.text = "ÃàÇÏÇÕ´Ï´Ù!\n¸ğµç ¼ºÀåÀ» ¿Ï·áÇÏ¿´½À´Ï´Ù!.\n¼ºÀå ÀÏÁö°¡ ¾÷µ¥ÀÌÆ® µÇ¾ú½À´Ï´Ù.";
+            levelText.text = "ì¶•í•˜í•©ë‹ˆë‹¤!\nëª¨ë“  ì„±ì¥ì„ ì™„ë£Œí•˜ì˜€ìŠµë‹ˆë‹¤!.\nì„±ì¥ ì¼ì§€ê°€ ì—…ë°ì´íŠ¸ ë˜ì—ˆìŠµë‹ˆë‹¤.";
             nextButton.gameObject.SetActive(true);
-            level100Active = true; 
+            level100Active = true;
         }
         else if (eggLevel >= 75 && !level75Active)
         {
             obj.SetActive(true);
-            levelText.text = "ÃàÇÏÇÕ´Ï´Ù!\n4´Ü°è ¼ºÀå¿¡ µ¹ÀÔÇÏ¿´½À´Ï´Ù.\n¼ºÀå ÀÏÁö°¡ ¾÷µ¥ÀÌÆ® µÇ¾ú½À´Ï´Ù.";
-            nextButton.gameObject.SetActive(true); 
-            level75Active = true; 
+            levelText.text = "ì¶•í•˜í•©ë‹ˆë‹¤!\n4ë‹¨ê³„ ì„±ì¥ì— ëŒì…í•˜ì˜€ìŠµë‹ˆë‹¤.\nì„±ì¥ ì¼ì§€ê°€ ì—…ë°ì´íŠ¸ ë˜ì—ˆìŠµë‹ˆë‹¤.";
+            nextButton.gameObject.SetActive(true);
+            level75Active = true;
         }
         else if (eggLevel >= 50 && !level50Active)
         {
             obj.SetActive(true);
-            levelText.text = "ÃàÇÏÇÕ´Ï´Ù!\n3´Ü°è ¼ºÀå¿¡ µ¹ÀÔÇÏ¿´½À´Ï´Ù.\n¼ºÀå ÀÏÁö°¡ ¾÷µ¥ÀÌÆ® µÇ¾ú½À´Ï´Ù.";
-            nextButton.gameObject.SetActive(true); 
-            level50Active = true; 
+            levelText.text = "ì¶•í•˜í•©ë‹ˆë‹¤!\n3ë‹¨ê³„ ì„±ì¥ì— ëŒì…í•˜ì˜€ìŠµë‹ˆë‹¤.\nì„±ì¥ ì¼ì§€ê°€ ì—…ë°ì´íŠ¸ ë˜ì—ˆìŠµë‹ˆë‹¤.";
+            nextButton.gameObject.SetActive(true);
+            level50Active = true;
         }
         else if (eggLevel >= 25 && !level25Active)
         {
             obj.SetActive(true);
-            levelText.text = "ÃàÇÏÇÕ´Ï´Ù!\n2´Ü°è ¼ºÀå¿¡ µ¹ÀÔÇÏ¿´½À´Ï´Ù.\n¼ºÀå ÀÏÁö°¡ ¾÷µ¥ÀÌÆ® µÇ¾ú½À´Ï´Ù.";
-            nextButton.gameObject.SetActive(true); 
-            level25Active = true; 
+            levelText.text = "ì¶•í•˜í•©ë‹ˆë‹¤!\n2ë‹¨ê³„ ì„±ì¥ì— ëŒì…í•˜ì˜€ìŠµë‹ˆë‹¤.\nì„±ì¥ ì¼ì§€ê°€ ì—…ë°ì´íŠ¸ ë˜ì—ˆìŠµë‹ˆë‹¤.";
+            nextButton.gameObject.SetActive(true);
+            level25Active = true;
         }
         else if (eggLevel < 25)
         {
-            obj.SetActive(false); 
-            checkButton.gameObject.SetActive(false); 
-            nextButton.gameObject.SetActive(false); 
-            ResetLevelStates(); 
+            obj.SetActive(false);
+            checkButton.gameObject.SetActive(false);
+            nextButton.gameObject.SetActive(false);
+            ResetLevelStates();
         }
     }
 
     private void OnCheckButtonClick()
     {
-        obj.SetActive(false); 
-        checkButton.gameObject.SetActive(false); 
+        obj.SetActive(false);
+        checkButton.gameObject.SetActive(false);
     }
 
     private void OnNextButtonClick()
     {
         if (level100Active)
         {
-            levelText.text = "¾ÆÀÌ°¡ ¿ÏÀüÈ÷ ¼ºÀåÇÏ¿´½À´Ï´Ù!\n³¯°³°¡ ´Ş¸° ¾ÆÁÖ ¸ÚÁø Åä³¢³×¿ä!\n»õ·Î¿î ¾ËÀ» ¹Ş°í ½Í´Ù¸é »óÁ¡¿¡¼­ ÄÚÀÎÀ¸·Î ±¸ÀÔÇØÁÖ¼¼¿ä!";
+            levelText.text = "ì•„ì´ê°€ ì™„ì „íˆ ì„±ì¥í•˜ì˜€ìŠµë‹ˆë‹¤!\në‚ ê°œê°€ ë‹¬ë¦° ì•„ì£¼ ë©‹ì§„ í† ë¼ë„¤ìš”!\nìƒˆë¡œìš´ ì•Œì„ ë°›ê³  ì‹¶ë‹¤ë©´ ìƒì ì—ì„œ ì½”ì¸ìœ¼ë¡œ êµ¬ì…í•´ì£¼ì„¸ìš”!";
         }
         else if (level75Active)
         {
-            levelText.text = "¾ÆÀÌ°¡ Àü»ıÀ» ±â¾ïÇß³ª ºÁ¿ä. ¾ÆÁÖ ¸ÚÁø ¸»ÀÌ¶ó...\n±×°Ô ¹«¾ùÀÏ±î¿ä? ¾îÂ·µç ÀÌÁ¦ ´ÙÀ½ÀÌ ¸¶Áö¸·ÀÌ³×¿ä.\n¾ÆÀÌ°¡ ¹«»çÈ÷ ¼ºÀåÇÒ ¼ö ÀÖµµ·Ï Á¶±İ¸¸ ´õ µµ¿ÍÁÖ¼¼¿ä!";
+            levelText.text = "ì•„ì´ê°€ ì „ìƒì„ ê¸°ì–µí–ˆë‚˜ ë´ìš”. ì•„ì£¼ ë©‹ì§„ ë§ì´ë¼...\nê·¸ê²Œ ë¬´ì—‡ì¼ê¹Œìš”? ì–´ì¨Œë“  ì´ì œ ë‹¤ìŒì´ ë§ˆì§€ë§‰ì´ë„¤ìš”.\nì•„ì´ê°€ ë¬´ì‚¬íˆ ì„±ì¥í•  ìˆ˜ ìˆë„ë¡ ì¡°ê¸ˆë§Œ ë” ë„ì™€ì£¼ì„¸ìš”!";
         }
         else if (level50Active)
         {
-            levelText.text = "ÀÌ ¾ÆÀÌ´Â Àü»ı¿¡ Åä³¢¿´´ø °ÍÀ¸·Î º¸ÀÔ´Ï´Ù.\nºĞÈ«°ú ÆÄ¶ûÀ» ÁÁ¾ÆÇÏ°í, ´Ş¸®´Â °Ô Ãë¹ÌÀÎ ¸ğ¾çÀÌ¿¡¿ä.\nºÎµğ ¿øÇÏ´Â ¹æÇâÀ¸·Î ¼ºÀåÀ» ¸¶Ä¥ ¼ö ÀÖÀ¸¸é ÁÁ°Ú³×¿ä!";
+            levelText.text = "ì´ ì•„ì´ëŠ” ì „ìƒì— í† ë¼ì˜€ë˜ ê²ƒìœ¼ë¡œ ë³´ì…ë‹ˆë‹¤.\në¶„í™ê³¼ íŒŒë‘ì„ ì¢‹ì•„í•˜ê³ , ë‹¬ë¦¬ëŠ” ê²Œ ì·¨ë¯¸ì¸ ëª¨ì–‘ì´ì—ìš”.\në¶€ë”” ì›í•˜ëŠ” ë°©í–¥ìœ¼ë¡œ ì„±ì¥ì„ ë§ˆì¹  ìˆ˜ ìˆìœ¼ë©´ ì¢‹ê² ë„¤ìš”!";
         }
         else if (level25Active)
         {
-            levelText.text = "¾ÆÀÌ´Â º°·Î Å©Áö ¾ÊÀ» °ÍÀ¸·Î ¿¹»óÀÌ µÇÁö¸¸...\nÁ¤¼º²¯ µ¹º¸¸é ¿¹»óº¸´Ù ´õ Å©°Ô ¼ºÀåÇÒ ¼ö ÀÖÀ»Áöµµ ¸ô¶ó¿ä!\n¾ÆÀÌ´Â Çª¸¥ ÀÚ¿¬À» ÁÁ¾ÆÇÏ´Â °ÍÀ¸·Î º¸ÀÌ´Ï Âü°íÇÏ¼¼¿ä~";
+            levelText.text = "ì•„ì´ëŠ” ë³„ë¡œ í¬ì§€ ì•Šì„ ê²ƒìœ¼ë¡œ ì˜ˆìƒì´ ë˜ì§€ë§Œ...\nì •ì„±ê» ëŒë³´ë©´ ì˜ˆìƒë³´ë‹¤ ë” í¬ê²Œ ì„±ì¥í•  ìˆ˜ ìˆì„ì§€ë„ ëª°ë¼ìš”!\nì•„ì´ëŠ” í‘¸ë¥¸ ìì—°ì„ ì¢‹ì•„í•˜ëŠ” ê²ƒìœ¼ë¡œ ë³´ì´ë‹ˆ ì°¸ê³ í•˜ì„¸ìš”~";
         }
 
-        nextButton.gameObject.SetActive(false); 
-        checkButton.gameObject.SetActive(true); 
+        nextButton.gameObject.SetActive(false);
+        checkButton.gameObject.SetActive(true);
     }
-
 
     private void ResetLevelStates()
     {
-        level25Active = false; 
-        level50Active = false; 
-        level75Active = false; 
-        level100Active = false; 
+        level25Active = false;
+        level50Active = false;
+        level75Active = false;
+        level100Active = false;
     }
 }
-

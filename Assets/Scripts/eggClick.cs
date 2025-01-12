@@ -265,10 +265,6 @@ public class EggClick2 : MonoBehaviour
             {
                 speechText.text = currentChoiceDialogue.Reactions[choiceIndex];
             }
-            else
-            {
-                Debug.LogError("선택지 반응이 존재하지 않습니다.");
-            }
 
             // 선택지 숨기기
             choiceButton1.gameObject.SetActive(false);
@@ -279,10 +275,6 @@ public class EggClick2 : MonoBehaviour
             // 선택 대기 상태 해제
             isWaitingForChoice = false;
             currentChoiceDialogue = null; 
-        }
-        else
-        {
-            Debug.LogError("선택지가 잘못 처리되었습니다.");
         }
     }
 

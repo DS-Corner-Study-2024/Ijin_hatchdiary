@@ -7,6 +7,11 @@ public class EggStatus : MonoBehaviour
     public Text eggStatusText;
     public InputField nameInputField;
     public Button saveNameButton;
+    public Button levelUpButton; 
+    public Button AButton; //성장일지 버튼
+
+    public Button closeButton; 
+
     public Image eggLVImage;
     public Text growthDiaryText;
 
@@ -16,12 +21,39 @@ public class EggStatus : MonoBehaviour
     public GameObject objectD;
     public GameObject objectE;
 
+    public GameObject Canvas1;
+    public GameObject col_0;   
+    public GameObject col_0_1c_0;
+    public GameObject col_0_2_0;
+    public GameObject col_0_3c_0;
+    public GameObject col_0_4_0;
+    public GameObject col_0_5_0;
+
+    public GameObject bookshelf_0; 
+    public GameObject Year;
+    public GameObject arrow_00; 
+
     private string eggName = "알";
     public int eggLevel = 0;
 
     void Start()
     {
         saveNameButton.onClick.AddListener(SaveEggName);
+
+        if (levelUpButton != null)
+        {
+            levelUpButton.onClick.AddListener(OnLevelUpButtonClicked);
+        }
+
+        if (AButton != null)
+        {
+            AButton.onClick.AddListener(OnAButtonClicked);
+        }
+
+        if (closeButton != null)
+        {
+            closeButton.onClick.AddListener(OnCloseButtonClicked);
+        }
 
         var eventTrigger = eggLVImage.gameObject.AddComponent<EventTrigger>();
         EventTrigger.Entry entry = new EventTrigger.Entry();
@@ -32,6 +64,44 @@ public class EggStatus : MonoBehaviour
         UpdateEggStatusText();
         UpdateGrowthDiaryText();
         UpdateObjectVisibility();
+
+        if (Canvas1 != null)
+        {
+            Canvas1.SetActive(false);
+        }
+    }
+
+    private void OnAButtonClicked()
+    {
+        if (Canvas1 != null)
+        {
+            Canvas1.SetActive(true);
+        }
+
+        if (Year != null && arrow_00 != null)
+        {
+            Year.SetActive(false);
+            arrow_00.SetActive(false);
+        }
+    }
+
+    private void OnCloseButtonClicked()
+    {
+        if (Canvas1 != null)
+        {
+            Canvas1.SetActive(false);
+        }
+
+        if (Year != null && arrow_00 != null)
+        {
+            Year.SetActive(true);
+            arrow_00.SetActive(true);
+        }
+    }
+
+    private void OnLevelUpButtonClicked()
+    {
+        AddEggLevel(1);
     }
 
     // 레벨업
@@ -39,7 +109,7 @@ public class EggStatus : MonoBehaviour
     {
         eggLevel += amount;
         UpdateEggStatusText();
-        UpdateGrowthDiaryText();  // 여기에 추가
+        UpdateGrowthDiaryText();
         UpdateObjectVisibility();
     }
 
@@ -75,22 +145,41 @@ public class EggStatus : MonoBehaviour
         {
             objectD.SetActive(false);
             objectE.SetActive(true);
+            if (col_0 != null && col_0_1c_0 != null)
+            {
+                col_0_5_0.SetActive(true);
+            }
         }
         else if (eggLevel >= 75)
         {
             objectC.SetActive(false);
             objectD.SetActive(true);
+            if (col_0 != null && col_0_1c_0 != null)
+            {
+                col_0_4_0.SetActive(true);
+            }
         }
         else if (eggLevel >= 50)
         {
             objectB.SetActive(false);
             objectC.SetActive(true);
+            if (col_0 != null && col_0_1c_0 != null)
+            {
+                col_0_3c_0.SetActive(true);
+            }
         }
         else if (eggLevel >= 25)
         {
             objectA.SetActive(false);
             objectB.SetActive(true);
+
+            if (col_0 != null && col_0_1c_0 != null)
+            {
+                col_0_1c_0.SetActive(true);
+                col_0_2_0.SetActive(true);
+            }
         }
+
         else
         {
             objectA.SetActive(true);
@@ -101,7 +190,7 @@ public class EggStatus : MonoBehaviour
         }
     }
 
-    // 그림 더블 시 호출
+    // 그림 더블 클릭 시 호출
     public void OnEggLVImageDoubleClick()
     {
         nameInputField.gameObject.SetActive(true);
@@ -115,7 +204,6 @@ public class EggStatus : MonoBehaviour
     {
         if (EventSystem.current.currentSelectedGameObject != nameInputField.gameObject)
         {
-            // 테스트용 키
             if (Input.GetKeyDown(KeyCode.B))
             {
                 AddEggLevel(5);

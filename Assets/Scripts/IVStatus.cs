@@ -1,20 +1,36 @@
-using UnityEngine;
-using UnityEngine.UI; 
+ï»¿using UnityEngine;
+using UnityEngine.UI;
 
 public class IVStatus : MonoBehaviour
 {
-    public Text statusText; 
-    private int level = 1;
-    private int coins = 0;
+    public Text statusText;
+    public int level = 0;
+    public int coins = 0;
+
+    public Button levelUpButton;
+
+    private int lastRewardLevel = 0;
 
     void Start()
     {
         UpdateStatusText();
+
+        if (levelUpButton != null)
+        {
+            levelUpButton.onClick.AddListener(OnLevelUpButtonClicked);
+        }
     }
 
     public void AddLevel(int amount)
     {
         level += amount;
+
+        if (level / 25 > lastRewardLevel / 25)
+        {
+            AddCoins(10);
+            lastRewardLevel = level;
+        }
+
         UpdateStatusText();
     }
 
@@ -26,20 +42,24 @@ public class IVStatus : MonoBehaviour
 
     private void UpdateStatusText()
     {
-        statusText.text = $"·¹º§: {level} \n ÄÚÀÎ: {coins}";
+        statusText.text = $"ë ˆë²¨: {level} \nì½”ì¸: {coins}";
     }
 
     void Update()
     {
-        // Å×½ºÆ®¿ë Å° 
-        if (Input.GetKeyDown(KeyCode.M)) 
+        // í…ŒìŠ¤íŠ¸ìš© í‚¤ 
+        if (Input.GetKeyDown(KeyCode.M))
         {
-            AddLevel(1);
+            AddLevel(5);
         }
-        if (Input.GetKeyDown(KeyCode.N)) 
+        if (Input.GetKeyDown(KeyCode.N))
         {
             AddCoins(10);
         }
     }
-}
 
+    private void OnLevelUpButtonClicked()
+    {
+        AddLevel(1);
+    }
+}

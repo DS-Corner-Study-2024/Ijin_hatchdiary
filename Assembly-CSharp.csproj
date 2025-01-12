@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\IVStatus.cs" />
     <Compile Include="Assets\Scripts\eggLV.cs" />
     <Compile Include="Assets\Scripts\BookClickHandler.cs" />
+    <Compile Include="Assets\Scripts\prologue.cs" />
     <Compile Include="Assets\Scripts\ArrowClickHandler.cs" />
     <Compile Include="Assets\Scripts\info.cs" />
     <Compile Include="Assets\Scripts\DiaryHandler.cs" />
